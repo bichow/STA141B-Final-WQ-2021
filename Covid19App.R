@@ -3,6 +3,7 @@ library(tidyverse)
 library(jsonlite)
 library(curl)
 
+
 url <- readLines(curl("https://api.covid19api.com/summary")) # free covid-19 api from covid19api.com
 covid <- fromJSON(txt = url)
 
