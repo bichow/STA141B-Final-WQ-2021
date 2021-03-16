@@ -25,6 +25,7 @@ ui <- fluidPage(
       tableOutput("summary"),
       textOutput("date_title"),
       textOutput("date_updated"),
+      br(),
       textOutput("global_title"),
       tableOutput("confirm_table"),
       tableOutput("death_table"),
@@ -75,6 +76,7 @@ server <- function(input, output, session) {
   output$date_updated <- renderPrint({
     req(input$country != "-")
     covid_data()$Date
+    
   })
   output$global_title <- renderText({
     "Global Statistics"
