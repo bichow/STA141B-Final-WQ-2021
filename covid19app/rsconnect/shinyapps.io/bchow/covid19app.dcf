@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: covid19app
 title: covid19app
 username:
@@ -10,3 +11,17 @@ url: https://bchow.shinyapps.io/covid19app/
 when: 1615864859.16245
 asMultiple: FALSE
 asStatic: FALSE
+=======
+name: covid19app
+title: covid19app
+username:
+account: bchow
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3797805
+bundleId: 4350872
+url: https://bchow.shinyapps.io/covid19app/
+when: 1615864859.16245
+asMultiple: FALSE
+asStatic: FALSE
+>>>>>>> fb14bf51c7623fb5dd60a449223d003980298118
